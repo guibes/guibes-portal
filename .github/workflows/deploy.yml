@@ -22,6 +22,6 @@ jobs:
       - name: Deploy Docusaurus website
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER: ${{ github.actor }}
+          GIT_USER: ${{ github.actor }}
         run: |
           yarn deploy
