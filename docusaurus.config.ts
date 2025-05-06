@@ -18,7 +18,8 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'guibes', // Usually your GitHub org/user name.
-  projectName: 'guibes.github.io', // Usually your repo name.
+  projectName: 'guibes-portal', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
